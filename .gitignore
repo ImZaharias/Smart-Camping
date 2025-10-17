@@ -1,0 +1,33 @@
+# .NET / Visual Studio
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Tt]estResult*/
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.db
+*.exe
+*.dll
+*.tmp
+*.log
+*.nupkg
+.vs/
+.vscode/
+.nuget/
+packages/
+_ReSharper*/
+*.DotSettings.user
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.history/
+
+
+

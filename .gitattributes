@@ -1,0 +1,34 @@
+# .NET / Visual Studio
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Treat all C# files as text
+*.cs text diff=csharp
+
+# Normalize solution and project files
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+
+# Common config files
+*.config text
+*.xml text
+*.json text
+*.yml text
+*.md text
+*.txt text
+
+# Binary files - don't modify line endings
+*.exe binary
+*.dll binary
+*.pdb binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.7z binary
+*.pdf binary
+
+
